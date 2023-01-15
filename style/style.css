@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+  }
+
+
+
+.container-1{
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* header */
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.title{
+    margin-top: 50px;
+    margin-left: 228px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.navigation{
+    margin-top: 63px;
+    margin-right: 240px;
+    display: flex;
+    gap: 25px;
+    
+}
+
+.link-bar{
+    text-decoration: none;
+    color:  #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+ /* title-info------ */
+
+.title-info{
+    width: 500px;
+    height: 225px;
+    position: absolute;
+    top: 206px;
+    right: 514px;
+    left: 514px;
+    bottom: 891px;
+
+}
+
+.details{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+
+}
+.para{
+    font-size: 16px;
+    color: #727272;
+}
+
+
+
+.pic img{
+    margin: 0 auto;
+    height: 400px;
+    padding: 577px 300px 45px 300px ;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+/* Section number 2---------- */
+
+
+.container-2{
+   display: flex;
+   align-items: center;
+
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    grid-gap: 24px;
+    margin-left: 100px;
+  
+   
+}
+.pic-title{
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+
+}
+h3{
+    font-weight: 500;
+    font-size: 45px;
+}
+.pic-title-header{
+    color: #727272;
+
+}
+span{
+    color: #131313;
+}
+.span1{
+    color: #ff900e;
+}
+.pic-title-para{
+    font-size: 16px;
+    color: #727272;
+}
+button{
+    width: 180px;
+    height: 64px;
+    background-color: #ff900e;
+    color:#ffff;
+    border: 2px solid #ff900e;
+    border-radius: 10px;
+}
+
+/* section-3------------ */
+
+.container-3{
+    width: 1440px;
+    height: 1059px;
+}
+.pic-info{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    margin-left: 240px;
+    
+}
+
+.container-3{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+
+.fea-com{
+    font-weight: 700;
+    font-size: 45px;
+    color-scheme: #131313;
+}
+.fea-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.benefits{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ben-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
